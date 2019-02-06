@@ -22,4 +22,5 @@ CMD [ \
 	"-repeat", "watch", \
 	"-copyonconflict", \
 	"-prefer", "newer" \
+	"-ignore", "Name node_modules" \
 ]
