@@ -24,5 +24,5 @@ CMD [ \
 	"-copyonconflict", \
 	"-prefer", "newer", \
 	"-ignore", "Name node_modules", \
-	"-ignore", "Name .*" \
+	"-ignore", "Name {.*}" \
 ]
