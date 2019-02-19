@@ -22,12 +22,6 @@ CMD [ \
 	"-batch", \
 	"-repeat", "watch", \
 	"-copyonconflict", \
-<<<<<<< HEAD
 	"-prefer", "newer", \
-	"-ignore", "Name node_modules", \
-	"-ignore", "Name {.*}" \
-=======
-	"-prefer", "newer" \
 	"-ignore", "Name {node_modules}" \
->>>>>>> parent of eb9f11e... fix parameter
 ]
