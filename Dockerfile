@@ -21,7 +21,7 @@ CMD [ \
 	"-auto", \
 	"-batch", \
 	"-repeat", "watch", \
-	"-perms", "0" \
+	"-perms", "0", \
 	"-dontchmod", \
 	"-prefer", "newer", \
 	"-ignore", "Name node_modules", \
