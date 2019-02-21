@@ -26,5 +26,9 @@ CMD [ \
 	"-ignore", "Path {drupal/sites/default/files/php}", \
 	"-ignore", "Path {drupal/sites/default/files/js}", \
 	"-ignore", "Path {drupal/vendor}", \
+	"-ignore", "Path {db_dump/local}", \
+	"-ignore", "Path {php}", \
+	"-ignore", "Path {apache}", \
+	"-ignore", "Path {drupal/sites/default/files/config_*}", \
 	"-ignore", "Name {.*}" \
 ]
