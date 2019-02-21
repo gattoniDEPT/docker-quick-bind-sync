@@ -21,7 +21,7 @@ CMD [ \
 	"-auto", \
 	"-batch", \
 	"-repeat", "watch", \
-	"-copyonconflict", \
+	"-dontchmod", \
 	"-prefer", "newer", \
 	"-ignore", "Name node_modules", \
 	"-ignore", "Name {.*}" \
