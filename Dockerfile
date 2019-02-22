@@ -22,13 +22,16 @@ CMD [ \
 	"-batch", \
 	"-repeat", "watch", \
 	"-prefer", "newer", \
+	"-copyonconflict", \
 	"-ignore", "Name node_modules", \
 	"-ignore", "Path {drupal/sites/default/files/php}", \
 	"-ignore", "Path {drupal/sites/default/files/js}", \
-	"-ignore", "Path {drupal/vendor}", \
+	"-ignore", "Path {drupal/sites/default/files/css}", \
 	"-ignore", "Path {db_dump/local}", \
 	"-ignore", "Path {php}", \
 	"-ignore", "Path {apache}", \
 	"-ignore", "Path {drupal/sites/default/files/config_*}", \
-	"-ignore", "Name {.*}" \
+	"-ignore", "Name {.DS_Store}", \
+	"-ignore", "Name {.idea}", \
+	"-ignore", "Name {.git}" \
 ]
