@@ -23,6 +23,7 @@ CMD [ \
 	"-repeat", "watch", \
 	"-prefer", "newer", \
 	"-copyonconflict", \
+	"-ignore", "Path {vendor}", \
 	"-ignore", "Name node_modules", \
 	"-ignore", "Path {drupal/sites/default/files/php}", \
 	"-ignore", "Path {drupal/sites/default/files/js}", \
