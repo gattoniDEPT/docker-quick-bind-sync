@@ -33,6 +33,7 @@ CMD [ \
 	"-ignore", "Path {php}", \
 	"-ignore", "Path {apache}", \
 	"-ignore", "Path {drupal/sites/default/files/config_*}", \
+	"-ignore", "Path {drupal/sites/*/services*.yml}", \
 	"-ignore", "Name {.DS_Store}", \
 	"-ignore", "Name {.idea}", \
 	"-ignore", "Name {.git}" \
